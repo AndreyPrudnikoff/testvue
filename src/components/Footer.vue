@@ -1,19 +1,19 @@
 <template>
-  <div class="footer">
+  <footer>
     <h4>Copyright &copy; Прудников Андрей Владимирович</h4>
     <span>Моя страничка <a href="https://github.com/AndreyPrudnikoff">Github</a></span>
-  </div>
+  </footer>
 </template>
 
 <script>
 export default {
-  name: "footer"
+  name: "Down"
 
 }
 </script>
 
 <style scoped lang="scss">
-.footer {
+footer {
   text-align: center;
   background-color: #276899;
   color: #fff;

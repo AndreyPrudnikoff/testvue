@@ -26,6 +26,7 @@ export default {
 <style lang="scss">
 * {
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 #app {
   background-color: #515960;
@@ -33,7 +34,6 @@ export default {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  //justify-content: space-between;
   align-items: stretch;
   align-content: stretch;
 }

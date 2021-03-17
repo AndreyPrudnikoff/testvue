@@ -1,17 +1,17 @@
 <template>
-  <div class="header">
+  <header>
     <h2>Тестовое на Vue.js</h2>
-  </div>
+  </header>
 </template>
 
 <script>
 export default {
-  name: "header"
+  name: "Up"
 }
 </script>
 
 <style scoped lang="scss">
-.header {
+header {
   text-align: center;
   color: #000;
   background-color: darkcyan;
