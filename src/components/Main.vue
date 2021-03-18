@@ -80,6 +80,7 @@ export default {
       this.info = [];
     },
     filtered() {
+
       axios.get("https://data.jsdelivr.com/v1/stats/packages/year").then(res => this.data = res.data);
       this.lists = this.data.filter(str => str.name.toLowerCase().indexOf(this.search.toLowerCase()) + 1);
       if (!this.search) {
